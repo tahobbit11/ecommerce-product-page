@@ -15,27 +15,79 @@
   </style>
 </head>
 <body>
+  <header>
+    <div class="header-wrapper">
+      <div class="half-header-wrapper">
+        <img src="./images/icon-menu.svg" alt="menu">
+        <h1>sneakers</h1>
+      </div>
+      <div class="half-header-wrapper">
+        <img src="./images/icon-cart.svg" alt="cart">
+        <div class="checkout-cart">
+          <p>Cart</p>
+          <div class="checkout-divider"></div>
+          <p>Your cart is empty</p>
+        </div>
+        <img src="./images/image-avatar.png" alt="profile-picture">
+      </div>
+    </div>
+    <aside class="sidebar">
+      <div class="close-container">
+        <img src="./images/icon-close.svg">
+      </div>
+      <div class="sidebar-categories">
+        <p>Collections</p>
+        <p>Men</p>
+        <p>Women</p>
+        <p>About</p>
+        <p>Contact</p>
+      </div>
+    </aside>
+  </header>
 
-  Collections
-  Men
-  Women
-  About
-  Contact
-
-  Sneaker Company
-
-  Fall Limited Edition Sneakers
-
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart
-  
+  <main>
+    <div class="content-wrapper">
+      <div class="product-carousel">
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+        <div class="carousel-nav">
+          <span class="carousel-button"></span>
+          <span class="carousel-button"></span>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-description">
+          <p>SNEAKER COMPANY</p>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>  
+            These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer
+          </p>
+        </div>
+        <div class="cost-container">
+          <div class="sale">
+            <div>
+              <h1>$125.00</h1>
+              <span class="discount">50%</span>
+            </div>
+            <div>
+              <span class="previous-amount">$250.00</span>
+            </div>
+          </div>
+          <div class="quantity-button">
+            <img src="./images/icon-minus.svg" alt="minus">
+            <p>0</p>
+            <img src="./images/icon-plus.svg" alt="plus">
+          </div>
+          <div class="cart">
+            <button class="cart-button"><img src="./images/icon-cart.svg" alt="cart"> Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
