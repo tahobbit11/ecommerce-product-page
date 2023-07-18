@@ -83,6 +83,199 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
+
+     /* Basic Styles */
+      html {
+        font-size: 16px;
+      }
+
+      body {
+        font-family: 'Kumbh Sans', sans-serif;
+      }
+
+      h1, p {
+        margin: 0;
+      }
+
+     /* Header Styles */
+      header {
+        background-color: white;
+        padding: 20px 25px 30px 25px;
+      }
+
+      .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .half-header-wrapper:nth-of-type(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        font-weight: 700;
+      }
+
+      .menu {
+        margin-right: 10px;
+        width: 15px;
+        height: 15px;
+      }
+
+      #cart {
+        padding-right: 20px;
+      }
+
+      .checkout-cart {
+        width: 360px;
+        height: 256px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+      }
+
+      .cart-name {
+        padding: 25px 0 30px 25px;
+        font-weight: 700;
+      }
+
+      .checkout-divider {
+        width: 100%;
+        border: 1px solid grey;
+      }
+
+      .cart-order {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .cart-order p {
+        padding-top: 80px;
+        color: hsl(220, 14%, 75%);
+      }
+
+      .avatar {
+        width: 20px;
+        height: 20px;
+      }
+
+      .sidebar {
+        position: absolute;
+        background-color: white;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        padding: 35px 0 0 25px;
+        box-shadow: 200px 0px rgba(0, 0, 0, .2);
+        transform: translate(-200%);
+      }
+
+      .show-sidebar {
+        transform: translate(0);
+        opacity: 1;
+      }
+
+      .close {
+        padding-bottom: 30px;
+      }
+
+      .sidebar-categories p{
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 1.1em;
+      }
+
+     /* Main Styles*/
+
+     .content-wrapper {
+      padding: 0 25px;
+      display: flex;
+     }
+
+     .product-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+     }
+
+     .product-description p:nth-of-type(1) {
+      color: hsl(26, 100%, 55%);
+      font-weight: 700;
+      padding-bottom: 20px;
+     }
+
+     .product-description h1 {
+      padding-bottom: 25px;
+     }
+
+     .product-description p:nth-of-type(2) {
+      color: hsl(219, 9%, 45%);
+      padding-bottom: 35px;
+     }
+
+     .sale {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     }
+
+     .sale div {
+      display: flex;
+      align-items: center;
+     }
+
+     .discount {
+      height: 25px;
+      width: 50px;      
+      text-align: center;
+      font-weight: 700;
+      background-color: hsl(25, 100%, 94%);
+      color: hsl(26, 100%, 55%);
+      border-radius: 10px;
+      margin-left: 15px;
+     }
+
+     .previous-amount {
+      text-decoration: line-through;
+      color: hsl(220, 14%, 75%);
+     }
+
+     .quantity-button {
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: hsl(223, 64%, 98%);
+      border-radius: 20px;
+      padding: 0 20px;
+      margin: 25px 0 15px 0;
+    }
+
+    .cart-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 55px;
+      background-color: hsl(26, 100%, 55%);
+      color: white;
+      border: none;
+      border-radius: 20px;
+    }
+
+    .cart-color {
+      padding-right: 15px;    
+      color: white;
+    }
+
+
   
   /* ==========================================================================
      Helper classes
